@@ -35,5 +35,17 @@
         "handle": "compress",
         "changelogUrl": "https://raw.githubusercontent.com/venveo/craft-compress/master/CHANGELOG.md",
         "class": "venveo\\compress\\Compress"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "craftcms/phpstan": "dev-main",
+        "craftcms/rector": "dev-main"
+    },
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true,
+            "craftcms/plugin-installer": true
+        }
     }
 }
